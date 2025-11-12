@@ -534,6 +534,7 @@ def main():
     # Header
     st.title("🤖 AlphaAgents Portfolio Optimizer")
     st.markdown("*AI-Powered Portfolio Construction and Backtesting System*")
+    st.info("📊 **Hybrid Approach**: Portfolio weights are computed as an equally weighted average of our Reinforcement Learning (RL) solution and this Multi-Agent AI system for enhanced robustness.")
     st.markdown("---")
     
     # Sidebar configuration
@@ -809,6 +810,20 @@ def main():
         st.markdown("""
         AlphaAgents is an AI-powered portfolio optimization system that leverages multiple specialized 
         AI agents to construct and analyze investment portfolios.
+        
+        ### 🔬 Hybrid Methodology
+        
+        This system combines two powerful approaches for optimal results:
+        
+        - **Reinforcement Learning (RL) Solution**: Data-driven approach that learns optimal trading strategies from historical market patterns
+        - **Multi-Agent AI System**: Expert agents (Research, Analysis, Risk, Portfolio) that provide human-like investment reasoning
+        
+        **Final Portfolio Weights** = 50% RL Solution + 50% Agentic Solution
+        
+        This hybrid approach leverages the strengths of both methods:
+        - RL provides quantitative, pattern-based optimization
+        - AI agents provide qualitative, reasoning-based decisions
+        - Equal weighting ensures balanced risk and robustness
         
         ### 🎯 Key Features
         
