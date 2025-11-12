@@ -7,9 +7,12 @@ google-generativeai>=0.8.0
 
 # Data and Analysis
 pandas>=2.0.0
-numpy>=1.24.0
+numpy>=1.22.0,<2.0.0
+scipy>=1.9.0
 yfinance>=0.2.0
 pandas-datareader>=0.10.0
+numexpr>=2.8.4
+bottleneck>=1.3.6
 
 # Utilities
 python-dotenv>=1.0.0
@@ -20,3 +23,7 @@ typing-extensions>=4.0.0
 # Uncomment to enable visualization features
 # matplotlib>=3.7.0
 # seaborn>=0.12.0
+
+# Web UI
+streamlit>=1.28.0
+plotly>=5.17.0
